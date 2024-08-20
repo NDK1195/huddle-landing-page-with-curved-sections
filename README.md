@@ -8,8 +8,8 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/NDK1195/huddle-landing-page-with-single-introductory-section)
-- Live Site URL: [Live site URL here](https://ndk1195.github.io/huddle-landing-page-with-single-introductory-section/)
+- Solution URL: [Solution URL here](https://github.com/NDK1195/huddle-landing-page-with-curved-sections)
+- Live Site URL: [Live site URL here](https://ndk1195.github.io/huddle-landing-page-with-curved-sections/)
 
 ### Built with
 
