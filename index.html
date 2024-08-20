@@ -11,25 +11,401 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./src/output.css" />
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
   </head>
   <body>
-    Try it free Build The Community Your Fans Will Love Huddle re-imagines the
-    way we build communities. You have a voice, but so does your audience.
-    Create connections with your users as you engage in genuine discussion. Get
-    Started For Free 1.4k+ Communities Formed 2.7m+ Messages Sent Grow Together
-    Generate meaningful discussions with your audience and build a strong, loyal
-    community. Think of the insightful conversations you miss out on with a
-    feedback form. Flowing Conversations You wouldn't paginate a conversation in
-    real life, so why do it online? Our threads have just-in-time loading for a
-    more natural flow. Your Users It takes no time at all to integrate Huddle
-    with your app's authentication solution. This means, once signed in to your
-    app, your users can start chatting immediately. Ready To Build Your
-    Community? Get Started For Free Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices
-    quis sem. Phone: +1-543-123-4567 example@huddle.com Newsletter To recieve
-    tips on how to grow your community, sign up to our weekly newsletter. We’ll
-    never send you spam or pass on your email address Subscribe
+    <!-- container -->
+    <div class="grid min-h-dvh grid-rows-[auto_1fr_auto]">
+      <header class="mx-6 mb-[120px] mt-7">
+        <nav class="mb-28 flex items-center justify-between">
+          <!-- logo -->
+          <h1 class="max-w-[96px] lg:max-w-[240px]">
+            <img src="./images/logo.svg" alt="logo" class="w-full" />
+          </h1>
+          <!-- logo -->
+
+          <a
+            href="#"
+            class="rounded-[11.765px] border-[0.588px] border-pink px-[18.24px] py-[5.29px] text-[9.412px] leading-none text-pink shadow-button-mobile transition-colors hover:border-light-pink hover:text-light-pink"
+            >Try it free</a
+          >
+        </nav>
+
+        <!-- hero -->
+        <div class="mx-auto max-w-[296px] lg:max-w-[1017px]">
+          <!-- title -->
+          <div class="mb-[104px] text-center text-very-dark-cyan">
+            <h2 class="leading- mb-6 text-2xl font-bold">
+              Build The Community Your Fans Will Love
+            </h2>
+            <p class="mb-12 text-sm leading-normal">
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion.
+            </p>
+            <a
+              href="#"
+              class="inline-block w-[200px] rounded-3xl bg-pink py-[11px] text-xs font-bold leading-normal text-white drop-shadow-button-mobile transition-colors hover:bg-light-pink lg:w-[400px]"
+              >Get Started For Free</a
+            >
+          </div>
+          <!-- title -->
+          <!-- illustration -->
+          <img
+            src="./images/screen-mockups.svg"
+            alt="screen-mockups"
+            class="w-full"
+          />
+          <!-- illustration -->
+        </div>
+        <!-- hero -->
+      </header>
+
+      <main class="mb-[251px] flex flex-col gap-32">
+        <!-- statistic -->
+        <div class="flex flex-col items-center gap-[90px]">
+          <!-- one group -->
+          <div class="flex flex-col">
+            <img
+              src="./images/icon-communities.svg"
+              alt="icon communities"
+              class="size-[35.556px] lg:size-14"
+            />
+
+            <h2
+              class="text-[60.952px] font-bold leading-normal text-very-dark-cyan"
+            >
+              1.4k+
+            </h2>
+
+            <p
+              class="text-center text-[15.238px] leading-normal text-[#808E9A]"
+            >
+              Communities Formed
+            </p>
+          </div>
+          <!-- one group -->
+
+          <!-- one group -->
+          <div class="flex flex-col">
+            <img
+              src="./images/icon-messages.svg"
+              alt="icon messages"
+              class="size-[27.317px] lg:size-[49px]"
+            />
+
+            <h2
+              class="text-[60.952px] font-bold leading-normal text-very-dark-cyan"
+            >
+              2.7m+
+            </h2>
+
+            <p class="text-center text-[13.38px] leading-normal text-[#808E9A]">
+              Messages Sent
+            </p>
+          </div>
+          <!-- one group -->
+        </div>
+        <!-- statistic -->
+
+        <!-- grow together -->
+        <div>
+          <!-- background section top -->
+          <div>
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="./images/bg-section-top-desktop-1.svg"
+              />
+              <img
+                src="./images/bg-section-top-mobile-1.svg"
+                alt=""
+                class="w-full"
+              />
+            </picture>
+          </div>
+          <!-- background section top -->
+
+          <!-- content -->
+          <div class="bg-very-pale-blue py-[60px]">
+            <!-- container -->
+            <div
+              class="mx-auto flex max-w-[320px] flex-col items-center gap-[74.22px] lg:max-w-[1180px]"
+            >
+              <!-- illustration -->
+              <div class="max-w-[258.611px] lg:max-w-[517.222px]">
+                <img
+                  src="./images/illustration-grow-together.svg"
+                  alt="illustration grow together"
+                  class="w-full"
+                />
+              </div>
+              <!-- illustration -->
+
+              <!-- content -->
+              <div class="text-center text-very-dark-cyan">
+                <h3 class="mb-4 text-xl font-bold leading-normal">
+                  Grow Together
+                </h3>
+                <p class="px-3 text-sm leading-normal">
+                  Generate meaningful discussions with your audience and build a
+                  strong, loyal community. Think of the insightful conversations
+                  you miss out on with a feedback form.
+                </p>
+              </div>
+              <!-- content -->
+            </div>
+            <!-- container -->
+          </div>
+          <!-- content -->
+
+          <!-- background section bottom -->
+          <div>
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="./images/bg-section-bottom-desktop-1.svg"
+              />
+              <img
+                src="./images/bg-section-bottom-mobile-1.svg"
+                alt=""
+                class="w-full"
+              />
+            </picture>
+          </div>
+          <!-- background section bottom -->
+        </div>
+        <!-- grow together -->
+
+        <!-- flowing conversations -->
+        <div>
+          <!-- content -->
+          <div
+            class="mx-auto flex max-w-[320px] flex-col items-center gap-[85.5px] lg:max-w-[1180px]"
+          >
+            <!-- illustration -->
+            <div class="max-w-[265.5px] lg:max-w-[531px]">
+              <img
+                src="./images/illustration-flowing-conversation.svg"
+                alt="illustration flowing conversation"
+                class="w-full"
+              />
+            </div>
+            <!-- illustration -->
+
+            <!-- content -->
+            <div class="text-center text-very-dark-cyan">
+              <h3 class="mb-4 text-xl font-bold leading-normal">
+                Flowing Conversations
+              </h3>
+              <p class="px-3 text-sm leading-normal">
+                You wouldn't paginate a conversation in real life, so why do it
+                online? Our threads have just-in-time loading for a more natural
+                flow.
+              </p>
+            </div>
+            <!-- content -->
+          </div>
+          <!-- content -->
+        </div>
+        <!-- flowing conversations -->
+
+        <!-- your users -->
+        <div>
+          <!-- background section top -->
+          <div>
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="./images/bg-section-top-desktop-2.svg"
+              />
+              <img
+                src="./images/bg-section-top-mobile-2.svg"
+                alt=""
+                class="w-full"
+              />
+            </picture>
+          </div>
+          <!-- background section top -->
+
+          <!-- content -->
+          <div class="bg-very-pale-blue pb-28 pt-8">
+            <!-- container -->
+            <div
+              class="mx-auto flex max-w-[320px] flex-col items-center gap-[79px] lg:max-w-[1180px]"
+            >
+              <!-- illustration -->
+              <div class="max-w-[267px] lg:max-w-[534px]">
+                <img
+                  src="./images/illustration-your-users.svg"
+                  alt="illustration your users"
+                  class="w-full"
+                />
+              </div>
+              <!-- illustration -->
+
+              <!-- content -->
+              <div class="text-center text-very-dark-cyan">
+                <h3 class="mb-4 text-xl font-bold leading-normal">
+                  Your Users
+                </h3>
+                <p class="px-3 text-sm leading-normal">
+                  It takes no time at all to integrate Huddle with your app's
+                  authentication solution. This means, once signed in to your
+                  app, your users can start chatting immediately.
+                </p>
+              </div>
+              <!-- content -->
+            </div>
+            <!-- container -->
+          </div>
+          <!-- content -->
+
+          <!-- background section bottom -->
+          <div>
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="./images/bg-section-bottom-desktop-2.svg"
+              />
+              <img
+                src="./images/bg-section-bottom-mobile-2.svg"
+                alt=""
+                class="w-full"
+              />
+            </picture>
+          </div>
+          <!-- background section bottom -->
+        </div>
+        <!-- your users -->
+        <!-- community -->
+        <div
+          class="mx-4 flex flex-col items-center gap-10 text-center text-very-dark-cyan"
+        >
+          <h3 class="text-2xl font-bold leading-normal">
+            Ready To Build Your Community?
+          </h3>
+          <a
+            href="#"
+            class="inline-block w-[200px] rounded-3xl bg-pink py-[11px] text-xs font-bold leading-normal text-white drop-shadow-button-mobile transition-colors hover:bg-light-pink lg:w-[400px]"
+            >Get Started For Free</a
+          >
+        </div>
+        <!-- community -->
+      </main>
+
+      <footer class="">
+        <!-- background footer top -->
+        <div>
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./images/bg-footer-top-desktop.svg"
+            />
+            <img
+              src="./images/bg-footer-top-mobile.svg"
+              alt=""
+              class="w-full"
+            />
+          </picture>
+        </div>
+        <!-- background footer top -->
+
+        <!-- content -->
+        <div class="flex flex-col gap-[104px] bg-very-dark-cyan p-7 text-white">
+          <!-- newsletter -->
+          <div>
+            <h4 class="mb-4 text-xl font-bold leading-normal">Newsletter</h4>
+            <p class="mb-8 text-sm font-semibold leading-6">
+              To recieve tips on how to grow your community, sign up to our
+              weekly newsletter. We’ll never send you spam or pass on your email
+              address
+            </p>
+
+            <form class="flex flex-col gap-4">
+              <input
+                type="text"
+                class="w-full rounded-md py-3 pl-4 text-sm leading-6 text-very-dark-cyan outline-none"
+                id="email-input"
+              />
+              <button
+                type="submit"
+                class="self-end rounded-[5px] bg-pink px-10 py-3 font-bold leading-normal transition-colors hover:bg-light-pink"
+                id="btn-submit"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+          <!-- newsletter -->
+
+          <!-- contact -->
+          <div>
+            <div class="mb-4 h-8 max-w-[200px] lg:h-[38px] lg:max-w-[240px]">
+              <img src="./images/logo-white.svg" alt="logo" class="w-full" />
+            </div>
+
+            <p class="mb-10 text-sm font-semibold leading-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            </p>
+
+            <!-- phone & email -->
+            <div class="mb-12 flex flex-col gap-4">
+              <div class="flex items-center gap-4">
+                <img
+                  src="./images/icon-phone.svg"
+                  alt="icon phone"
+                  class="size-6"
+                />
+                <a href="tel:+1-543-123-4567" class="text-sm leading-6"
+                  >Phone: +1-543-123-4567</a
+                >
+              </div>
+
+              <div class="flex items-center gap-4">
+                <img
+                  src="./images/icon-email.svg"
+                  alt="icon email"
+                  class="size-6"
+                />
+                <a href="mailto:example@huddle.com" class="text-sm leading-6"
+                  >example@huddle.com</a
+                >
+              </div>
+            </div>
+            <!-- phone & email -->
+
+            <!-- socials -->
+            <div class="flex items-center gap-[17.33px] lg:gap-6">
+              <span
+                class="cursor-pointer text-[23.111px] transition-colors hover:text-[#00C7FA] lg:text-[32px]"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></span>
+              <span
+                class="cursor-pointer text-[23.111px] transition-colors hover:text-[#00C7FA] lg:text-[32px]"
+                ><i class="fa-brands fa-instagram"></i
+              ></span>
+              <span
+                class="cursor-pointer text-[23.111px] transition-colors hover:text-[#00C7FA] lg:text-[32px]"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></span>
+            </div>
+            <!-- socials -->
+          </div>
+          <!-- contact -->
+        </div>
+        <!-- content -->
+      </footer>
+    </div>
+    <!-- container -->
   </body>
 </html>

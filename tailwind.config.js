@@ -15,7 +15,12 @@ module.exports = {
         "very-pale-blue": "hsl(207, 100%, 98%)",
       },
       boxShadow: {
-        button: "0px 3px 7px rgba(0, 37, 46, 0.22)",
+        "button-mobile": "0px 0px 5px 0px rgba(255, 82, 193, 0.22)",
+        "button-desktop": "0px 0px 9px 0px rgba(255, 82, 193, 0.22)",
+      },
+      dropShadow: {
+        "button-mobile": "0px 3px 7px rgba(0, 37, 46, 0.22)",
+        "button-desktop": "0px 6px 13px rgba(0, 37, 46, 0.22)",
       },
     },
   },
